@@ -1,7 +1,4 @@
-// Lab Members: Anthony Llorico, Yanbing Xiao
-// Date: 4/4/2023
-// EE 371
-// Lab 1: Parking Lot Occupancy Counter
+
 
 // Counts the amount of cars entering or exiting the parking lot with assistance
 // from the car_detection module. Operates on a clock clk and can be reset with a 
