@@ -1,7 +1,5 @@
-// Lab Members: Anthony Llorico, Yanbing Xiao
-// Date: 4/4/2023
-// EE 371
-// Lab 1: Parking Lot Occupancy Counter
+
+//  Parking Lot Occupancy Counter
 
 // This top level module simulates a parking lot counter, which uses two sensors 'outer' and
 // 'inner' to detect whether cars enter or exit the parking lot, under the assumption that
@@ -10,9 +8,7 @@
 // which is connected to V_GPIO[23]. The amount of cars present will be displayed on HEXs 0 through 5.
 // Inputs are sampled on a clock 'CLOCK_50'
 
-// Inputs: 1-bit CLOCK_50
-// Outputs: 6 7-bit HEXs, 10-bit LEDR 
-// Inouts: 36-bit V_GPIO
+
 module DE1_SoC (CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, LEDR, V_GPIO);
 
 	input  logic		 CLOCK_50;	// 50MHz clock
