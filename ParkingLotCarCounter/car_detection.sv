@@ -1,7 +1,4 @@
-// Lab Members: Anthony Llorico, Yanbing Xiao
-// Date: 4/4/2023
-// EE 371
-// Lab 1: Parking Lot Occupancy Counter
+
 
 // Car detection module for Lab 1. Determines whether a car
 // has either entered or exited the driveway based on the inputs from
